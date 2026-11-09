@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f3f6f9; /* lightgray */
+  color: #0a1e3f; /* navy */
+}
+
+/* Wide display equations scroll sideways instead of breaking the layout. */
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.25rem 0;
+}
